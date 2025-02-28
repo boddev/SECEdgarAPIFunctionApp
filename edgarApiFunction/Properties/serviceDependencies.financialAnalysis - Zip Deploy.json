@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/bodfinancedata",
+      "type": "storage.azure",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "appInsights1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/microsoft.insights/components/bodfinance",
+      "type": "appInsights.azure",
+      "connectionId": "APPLICATIONINSIGHTS_CONNECTION_STRING"
+    },
+    "storage2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/financialAnalysis/providers/Microsoft.ServiceLinker/linkers/AzureStorage_3CC0555C43, /subscriptions/46e6c85f-b40d-4b45-b607-858fab366450/resourcegroups/bod-ai/providers/Microsoft.Web/sites/financialAnalysis/providers/Microsoft.ServiceLinker/linkers/AzureStorage_740A7EC780",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/boddeva465",
+      "type": "storage.azure",
+      "connectionId": "AzureStorage"
+    }
+  }
+}
